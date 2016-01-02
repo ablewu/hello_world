@@ -7,6 +7,7 @@ void func(int& n1, int& n2, const int& n3)
 	std::cout << "n1: " << n1 << " n2: " << n2 << " n3: " << n3 << std::endl;
 	++ n1;
 	++ n2;
+	std::cout << "diff" << std::endl;
 }
 
 int main()
